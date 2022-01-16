@@ -1,10 +1,10 @@
 :root {
-  --primary: #3d5852;
-  --secondary: #86938f;
+  --primary: #1b0000;
+  --secondary: #1b0000;
   --tertiary: #5e877f;
   --quatrinary: #6c6b67;
-  --light: #e3e4e3;
-  --dark: #182c23;
+  --light: #9ad1c6;
+  --dark: #152721;
   --error: rgb(228, 46, 1);
   --border-radius: 0.3rem;
 }
@@ -19,20 +19,30 @@ body {
   background-color: var(--quatrinary);
 }
 
-a {
+/* a {
   color: var(--dark);
   text-decoration: none;
-}
+} */
 
-a:visited {
+/* a:visited {
   color: inherit;
-}
+} */
 
 header {
-  padding: 40px;
+  /* padding: 0px; */
   text-align: center;
   background: var(--primary);
   color: var(--light);
+}
+
+header h1 {
+  background-color: var(--light);
+  width: 300px;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  color: var(--primary);
+  /* margin: 19px; */
 }
 
 main {
@@ -43,7 +53,7 @@ main {
 
 aside {
   flex: 0;
-  background-color: var(--tertiary);
+  background-color: var(--primary);
   padding: 80px;
   text-align: left;
   color: var(--light);
@@ -61,10 +71,6 @@ nav a {
   text-align: center;
 }
 
-nav a:hover {
-  color: var(--secondary);
-  background-color: var(--dark);
-}
 
 .gallery {
   flex: 4;
@@ -77,6 +83,7 @@ nav a:hover {
 }
 
 .btn-no-style {
+  color: var(--light);
   background: none;
   border: none;
   padding: 0;
