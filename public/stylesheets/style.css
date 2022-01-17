@@ -86,3 +86,50 @@ h1 {
   padding: 10px;
   font-weight: bolder;
 }
+
+/* Add style to comments */
+
+.meta {
+  font: arial;
+  font-weight: bold;
+}
+
+div.text {
+  font: arial;
+  padding: 0 1rem 1rem 1rem;
+}
+
+
+/* Add style to posts */
+
+article {
+  border: solid var(--primary);
+  margin-bottom: 1rem;
+}
+
+article a {
+  color: var(--quatrinary);
+}
+
+div.title {
+  background-color: var(--primary);
+  padding: 0.5rem;
+  color: var(--quatrinary);
+  margin: 0 !important;
+}
+
+div.meta {
+  padding: 1rem;
+}
+
+.create-post{
+  background-color: var(--primary);
+  padding: 0.5rem;
+  color: var(--secondary);
+  margin: 0 !important;
+}
+
+.new-post-form{
+  border: solid var(--primary);
+  margin-bottom: 1rem;
+}
