@@ -126,10 +126,36 @@ div.meta {
   background-color: var(--primary);
   padding: 0.5rem;
   color: var(--secondary);
-  margin: 0 !important;
+  margin: 0px;
 }
 
 .new-post-form{
+  border: solid var(--primary);
+  margin-bottom: 1rem;
+}
+
+/* style for login/signup */
+
+.login-login {
+  background-color: var(--primary);
+  padding: 0.5rem;
+  color: var(--secondary);
+  margin: 0px;
+}
+
+.login-form {
+  border: solid var(--primary);
+  margin-bottom: 1rem;
+}
+
+.signup-signup {
+  background-color: var(--primary);
+  padding: 0.5rem;
+  color: var(--secondary);
+  margin: 0px;
+}
+
+.signup-form {
   border: solid var(--primary);
   margin-bottom: 1rem;
 }
